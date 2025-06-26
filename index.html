@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Especialistas em vidros automotivos há mais de 30 anos. Atendimento rápido em Fortaleza e região. Robécio dos Parabrisas." />
+  <title>Robécio dos Parabrisas</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Botão WhatsApp Flutuante -->
+  <div class="whatsapp-widget">
+    <div class="tooltip-zap">Chama no zap! 📲</div>
+    <div class="zap-button" onclick="toggleZapBox()">
+      <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp">
+    </div>
+    <div class="zap-box" id="zapBox">
+      <div class="zap-header">
+        <strong>WhatsApp</strong>
+        <span class="close-zap" onclick="toggleZapBox()">×</span>
+      </div>
+      <div class="zap-message">
+        Vim pelo site e gostaria de um orçamento
+      </div>
+      <a 
+        href="https://wa.me/5585988468953?text=Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento" 
+        class="zap-link" 
+        target="_blank">
+        Abrir WhatsApp <span>➤</span>
+      </a>
+    </div>
+  </div>
+
+  <script>
+    function toggleZapBox() {
+      const box = document.getElementById('zapBox');
+      const button = document.querySelector('.zap-button');
+      const tooltip = document.querySelector('.tooltip-zap');
+
+      const isVisible = box.style.display === 'flex';
+
+      if (isVisible) {
+        box.style.display = 'none';
+        button.classList.remove('hidden');
+        tooltip.style.display = 'block';
+      } else {
+        box.style.display = 'flex';
+        button.classList.add('hidden');
+        tooltip.style.display = 'none';
+      }
+    }
+  </script>
+<body>
+
+  <!-- PRIMEIRA DOBRA -->
+  <header class="hero-grid">
+    <div class="overlay"></div>
+    <div class="container hero-container">
+      <div class="hero-texto">
+        <h1>O vidro do seu carro trincou ou quebrou?</h1>
+        <h2><span>Robecio é o nome certo!</span></h2>
+        <p class="subtexto">Especialistas em vidros automotivos, atuando há mais de 30 anos, com atendimento rápido onde você estiver.</p>
+         <a href="https://wa.me/5585988468953?text=Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento" target="_blank" class="whatsapp-btn rodape-btn">
+      <i class="fab fa-whatsapp"></i> Solicite seu orçamento
+    </a>
+      </div>
+      <div class="hero-imagem">
+        <a href="https://g.co/kgs/7eRJ1E2" target="_blank">
+          <img src="google..png" alt="Avaliação Robécio dos Parabrisas no Google">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SEGUNDA SEÇÃO -->
+<section class="diferenciais">
+  <div class="container">
+    <h2>Por que ser nosso cliente?</h2>
+    <div class="grid-diferenciais">
+
+      <div class="item">
+        <div class="icon-circle"><i class="fas fa-truck"></i></div>
+        <h3>Atendemos delivery</h3>
+        <p>Você não precisa parar sua rotina. Vamos até você, com agilidade e toda a estrutura necessária.</p>
+      </div>
+
+      <div class="item">
+        <div class="icon-circle"><i class="fas fa-users"></i></div>
+        <h3>Empresa familiar</h3>
+        <p>Nascemos do exemplo do Robécio e seguimos firmes no propósito: levar Confiança, Cuidado e Solução.</p>
+      </div>
+
+      <div class="item">
+        <div class="icon-circle"><i class="fas fa-shield-alt"></i></div>
+        <h3>Garantia real de 1 ano*</h3>
+        <p>Em todos os nossos serviços de instalação de vidros automotivos.</p>
+        <p class="observacao">*Consulte os serviços que possuem cobertura.</p>
+      </div>
+
+      <div class="item">
+        <div class="icon-circle"><i class="fas fa-user-cog"></i></div>
+        <h3>Técnicos especializados</h3>
+        <p>Serviço feito por quem entende. Equipe treinada, cuidadosa e comprometida com segurança e qualidade.</p>
+      </div>
+
+      <div class="item">
+        <div class="icon-circle"><i class="fas fa-credit-card"></i></div>
+        <h3>Facilidade no pagamento</h3>
+        <p>Parcelamos em até 10x no cartão.</p>
+        <p class="observacao">*solicite simulação.</p>
+      </div>
+
+      <div class="item">
+        <div class="icon-circle"><i class="fas fa-comments"></i></div>
+        <h3>Explicação clara e suporte</h3>
+        <p>Aqui você entende o que será feito, por que será feito, e ainda recebe nosso suporte depois do serviço.</p>
+      </div>
+
+    </div>
+
+     <a href="https://wa.me/5585988468953?text=Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento" target="_blank" class="whatsapp-btn rodape-btn">
+      <i class="fab fa-whatsapp"></i> Solicite seu orçamento
+    </a>
+  </div>
+  <!--terceira dobra serviços-->
+</section>
+<section class="servicos">
+  <div class="container">
+    <h2>Nossos serviços</h2>
+    <div class="grid-servicos">
+
+      <div class="servico-card">
+        <div class="servico-imagem" style="background-image: url('tecnico.png');"></div>
+        <div class="servico-texto">
+          <h3>Vidros Automotivos</h3>
+          <p>Instalamos e substituímos para-brisas, vidros laterais, traseiros, quebra-vento, teto solar, cantoneiras e muito mais. Segurança e qualidade para todos os tipos de vidro do seu carro.</p>
+        </div>
+      </div>
+
+      <div class="servico-card">
+        <div class="servico-imagem" style="background-image: url('borracha.JPEG');"></div>
+        <div class="servico-texto">
+          <h3>Borrachas e Guarnições</h3>
+          <p>Elimine infiltrações e ruídos indesejados! Fazemos a troca completa das borrachas e guarnições, garantindo vedação perfeita e um acabamento impecável.</p>
+        </div>
+      </div>
+
+      <div class="servico-card">
+        <div class="servico-imagem" style="background-image: url('palheta.png');"></div>
+        <div class="servico-texto">
+          <h3>Palhetas do Para-brisa</h3>
+          <p>Visibilidade é segurança. Se suas palhetas já não limpam direito, conte com a gente para realizar a troca e manter sua visão sempre clara, mesmo com chuva.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <!--depoimentos-->
+<section class="depoimentos">
+  <div class="container">
+    <h2>Veja o que nossos clientes falam</h2>
+    <div class="grid-depoimentos">
+
+      <div class="depoimento-card">
+        <div class="cliente">
+          <div class="avatar letra">A</div>
+          <h3>Andressa Jéssica</h3>
+        </div>
+        <div class="estrelas">★★★★★</div>
+        <p>Admiro o trabalho excelente do Kayque Thiago, sempre muito prestativo e atencioso no atendimento. Todos os feedbacks são nota 1000!</p>
+      </div>
+
+      <div class="depoimento-card">
+        <div class="cliente">
+          <div class="avatar letra">N</div>
+          <h3>Nádia Monteiro</h3>
+        </div>
+        <div class="estrelas">★★★★★</div>
+        <p>Excelente atendimento, atenciosos em relação a horários e retorno. Gostei demais! Estou com meu para-brisa novinho!</p>
+      </div>
+
+      <div class="depoimento-card">
+        <div class="cliente">
+          <div class="avatar letra">L</div>
+          <h3>Luiza Carla</h3>
+        </div>
+        <div class="estrelas">★★★★★</div>
+        <p>Atenciosos desde o atendimento via WhatsApp até a instalação. Super indico. Serviço rápido e seguro.</p>
+      </div>
+
+      <div class="depoimento-card">
+        <div class="cliente">
+          <div class="avatar letra">P</div>
+          <h3>Pedro J Fontinele</h3>
+        </div>
+        <div class="estrelas">★★★★★</div>
+        <p>Excelentes profissionais. Uma empresa em que você pode confiar seu automóvel sem se preocupar com nada.</p>
+      </div>
+
+      <div class="depoimento-card">
+        <div class="cliente">
+          <div class="avatar letra">L</div>
+          <h3>Leudo Furtado</h3>
+        </div>
+        <div class="estrelas">★★★★★</div>
+        <p>Meu carro estava entrando água no porta-malas. Em menos de uma hora, Robécio resolveu. Eficaz e justo. Recomendo.</p>
+      </div>
+
+      <div class="depoimento-card">
+        <div class="cliente">
+          <div class="avatar letra">M</div>
+          <h3>Markzinha Martins</h3>
+        </div>
+        <div class="estrelas">★★★★★</div>
+        <p>Serviço feito no horário agendado. Recebi todas as instruções e orientações após a instalação. Pessoal qualificado.</p>
+      </div>
+
+    </div>
+
+     <a href="https://wa.me/5585988468953?text=Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento" target="_blank" class="whatsapp-btn rodape-btn">
+      <i class="fab fa-whatsapp"></i> Solicite seu orçamento
+    </a>
+  </div>
+</section>
+<!--como funciona-->
+<section class="como-funciona">
+  <div class="container">
+    <h2>Como funciona?</h2>
+    <div class="grid-funciona">
+
+      <div class="funciona-item">
+        <div class="icon-circle"><i class="fas fa-comment-dots"></i></div>
+        <h3>Faça seu orçamento gratuito</h3>
+        <p>Seu vidro quebrou ou trincou? Manda uma mensagem pra gente no WhatsApp e receba um orçamento rápido e gratuito. Aqui, a solução começa com uma conversa.</p>
+      </div>
+
+      <div class="funciona-item">
+        <div class="icon-circle"><i class="fas fa-calendar-alt"></i></div>
+        <h3>Agende seu serviço</h3>
+        <p>Escolha o dia e horário mais confortável pra você. Nosso atendimento é 100% delivery: vamos até onde você estiver, no seu tempo, sem atrapalhar sua rotina.</p>
+      </div>
+
+      <div class="funciona-item">
+        <div class="icon-circle"><i class="fas fa-tools"></i></div>
+        <h3>Vamos até você</h3>
+        <p>No dia e horário marcados, nossa equipe vai até onde você estiver. Você não precisa sair de casa ou do trabalho — cuidamos de tudo com rapidez e capricho.</p>
+      </div>
+    </div>
+     <a href="https://wa.me/5585988468953?text=Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento" target="_blank" class="whatsapp-btn rodape-btn">
+      <i class="fab fa-whatsapp"></i> Solicite seu orçamento
+    </a>
+  </div>
+</section>
+<!--conheça mais-->
+<section class="conheca">
+  <div class="container conheca-container">
+    <div class="conheca-texto">
+      <h2>Conheça mais sobre o Robecio</h2>
+      <p>Com mais de 30 anos de atuação no mercado, o Robecio dos Parabrisas é uma empresa familiar que nasceu da dedicação e do exemplo do seu fundador, Robecio Alves.</p>
+      <p>Nossa missão é oferecer um atendimento humano, transparente e com excelência — resolvendo o problema dos nossos clientes de forma ágil, no local e com muito cuidado.</p>
+      <p>Atendemos em toda Fortaleza e região metropolitana, levando confiança, cuidado e solução em cada serviço.</p>
+    </div>
+    <div class="conheca-dados">
+      <div class="dado">
+        <strong>+30</strong>
+        <span>anos de atuação</span>
+      </div>
+      <div class="dado">
+        <strong>+97%</strong>
+        <span>clientes nos indicam</span>
+      </div>
+      <div class="dado">
+        <strong>100%</strong>
+        <span>atendimento delivery</span>
+      </div>
+    </div>
+  </div>
+</section>
+<!--rodapé-->
+<footer class="rodape">
+  <div class="rodape-social">
+    <a href="https://www.instagram.com/parabrisasrc/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/parabrisasrc/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  </div>
+
+  <div class="rodape-info">
+    <i class="fas fa-phone-alt"></i>
+    <span>(85) 98846-8953</span>
+  </div>
+
+  <div class="rodape-info">
+    <i class="fas fa-map-marker-alt"></i>
+    <span>Atendimento em domicílio - Fortaleza e Região Metropolitana</span>
+  </div>
+
+  <div class="rodape-botao">
+    <a href="https://wa.me/5585988468953?text=Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento" target="_blank" class="whatsapp-btn rodape-btn">
+      <i class="fab fa-whatsapp"></i> Solicite seu orçamento
+    </a>
+  </div>
+
+  <div class="rodape-legal">
+    <p>ROBECIO DOS PARABRISAS © 2025 — Todos os direitos reservados.</p>
+    <p>CNPJ 25.118.863/0001-99</p>
+  </div>
+</footer>
+
